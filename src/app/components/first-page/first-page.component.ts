@@ -16,6 +16,8 @@ export class FirstPageComponent implements OnInit {
     { image: '../../../assets/images/bg_3.jpg'}
     ];
 
+    
+
   constructor() { }
 
   ngOnInit(): void {
