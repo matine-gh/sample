@@ -1,0 +1,59 @@
+body{
+    // width: 35%;
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+    padding: 1.5rem !important;
+    background: #c49b63;
+    color: #fff;
+    // form{
+        h3{
+            line-height: 1.4;
+            color: #fff;
+            font-weight: 400;
+            font-family: "Josefin Sans", Arial, sans-serif;
+        }
+        
+        ::ng-deep{
+            .mat-form-field-appearance-legacy{
+                .mat-form-field-infix{
+                    padding: 0.4375em 0;
+                    // margin: 0 2rem;
+                }
+                .mat-form-field-underline {
+                    height: 0px; 
+                }
+            }
+        }
+        
+        .form{
+            .free-margin{
+                margin: 2rem 0rem;
+            }
+            .Date .phone .Time{
+                margin: 0rem;
+            }
+            // background-color: yellow;
+            .btn{
+                background-color: #fff;
+                color: #000;
+                padding: 1rem 1.5rem;
+                display: block !important;
+                border-radius: initial;
+            }
+            .btn:hover{
+                border: 1px solid #000;
+                background: #000;
+                color: #fff;
+            }
+            input{
+                background-color: inherit;
+                border: none;
+                border-bottom: solid 1px;
+                margin: 5px;
+            }
+        }
+    // }
+}

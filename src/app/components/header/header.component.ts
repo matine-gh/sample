@@ -1,5 +1,7 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject, OnInit, HostListener } from '@angular/core';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatDividerHarness} from '@angular/material/divider/testing';
 // import {  } from '@angular/platform-browser';
 
 @Component({

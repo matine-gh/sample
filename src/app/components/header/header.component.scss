@@ -1,10 +1,24 @@
-.container{
-    max-width: 900px;
+.container-fluid{
+    
+    background: transparent;
+    border-bottom: 1px solid white;
+    position: fixed;
+    padding-top: 17px;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    height: 60px;
+    color: white;
+    z-index: 100000;
+
+    // max-width: 900px;
+    // width: -webkit-fill-available;
+    width: 100%;
     position: absolute;
     // position: -webkit-sticky;
     align-items: center;
     top: 0;
-    left: 0;
+    // left: 0;
     z-index: 1020;
     // z-index: 1020;
     // position: fixed;
@@ -13,7 +27,7 @@
         text-align-last: center;
         // line-height: 0;
         h6{
-            font-size: 1rem;
+            font-size: large;
             line-height: 19px;
             /* line-height: 8px; */
             margin-bottom: -4px;
@@ -24,7 +38,8 @@
         }
     }
     .menu{
-        text-align-last: inherit;
+        // text-align-last: inherit;
+        text-align-last: center;
         a{
             color: white;
             text-decoration: none;
