@@ -11,7 +11,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InformationComponent } from './components/information/information.component';
 import { BookATableComponent } from './components/book-a-table/book-a-table.component';
 import { MatGridListModule } from '@angular/material/grid-list';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+
+// import {MatDatepickerModule} from '@angular/material/datepicker';
+
 
 @NgModule({
   declarations: [
@@ -20,16 +22,15 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     Section1Component,
     FirstPageComponent,
     InformationComponent,
-    BookATableComponent
+    BookATableComponent,
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCarouselModule.forRoot(),
     MatGridListModule,
     MatInputModule,
-    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

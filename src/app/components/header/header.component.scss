@@ -1,27 +1,19 @@
 .container-fluid{
     
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background: transparent;
-    border-bottom: 1px solid white;
     position: fixed;
     padding-top: 17px;
     top: 0;
     width: 100%;
-    display: inline-block;
-    height: 60px;
+    // display: inline-block;
     color: white;
     z-index: 100000;
-
-    // max-width: 900px;
-    // width: -webkit-fill-available;
     width: 100%;
     position: absolute;
-    // position: -webkit-sticky;
     align-items: center;
     top: 0;
-    // left: 0;
     z-index: 1020;
-    // z-index: 1020;
-    // position: fixed;
     color: white;
     .title{
         text-align-last: center;
@@ -38,8 +30,8 @@
         }
     }
     .menu{
-        // text-align-last: inherit;
         text-align-last: center;
+        margin-bottom: auto;
         a{
             color: white;
             text-decoration: none;
@@ -47,10 +39,10 @@
             font-size: xx-small;
         }
         a:hover{
-            color: #f2c40d;
+            color: #c49b63;
         }
         i:hover{
-            color: #f2c40d;
+            color: #c49b63;
         }
     }
 }
@@ -60,4 +52,5 @@
     z-index: 1020;
     background-color: #151111;
     width: -webkit-fill-available !important;
+    border-bottom: none;
 }

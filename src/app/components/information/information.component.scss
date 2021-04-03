@@ -1,25 +1,30 @@
 body{
     display: inline-block;
     width: 65%;
+    font-size: 0.6rem;
     background-color: black;
     height: fit-content;
     padding: 2% 5% 2% 12%;
     // width: 65%;
-    // .container{
+    .row{
         .title{
             .row{
                 i{
                     color: #c49b63;
-                    font-size: 20px;
+                    font-size: 0.8rem;
+                    padding-top: 0.5rem;
                 }
                 div{
                     h3{
                         color: white;
-                        font-size: 16px;
+                        font-size: 0.6rem;
+                        margin-bottom: 0rem;
                     }
-                    p{}
+                    p{
+                        color: gray;
+                    }
                 }
             }
         }
-    // }
+    }
 }
