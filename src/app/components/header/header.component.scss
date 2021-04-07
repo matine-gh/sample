@@ -1,52 +1,87 @@
+
 .container-fluid{
-    
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background: transparent;
-    position: fixed;
-    padding-top: 17px;
-    top: 0;
-    width: 100%;
-    // display: inline-block;
-    color: white;
-    z-index: 100000;
-    width: 100%;
     position: absolute;
+    width: 100%;
     align-items: center;
     top: 0;
     z-index: 1020;
     color: white;
+    padding: 1.65rem;
     .title{
         text-align-last: center;
-        // line-height: 0;
-        h6{
-            font-size: large;
-            line-height: 19px;
-            /* line-height: 8px; */
-            margin-bottom: -4px;
+        h1{
+            line-height: 1rem;
+            margin: 0px;
         }
         p{
             letter-spacing: 4px;
-            font-size: x-small;
+            margin: 0rem;
         }
     }
-    .menu{
-        text-align-last: center;
-        margin-bottom: auto;
-        a{
-            color: white;
-            text-decoration: none;
-            margin: 0px 6px;
-            font-size: xx-small;
+    .topnav {
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin: 0rem 0.65rem;
+    }
+    
+    .topnav a:hover {
+        color: #c49b63;
+    }
+    
+    .topnav a.active {
+        color: #c49b63;
+    }
+    
+    .topnav .icon {
+        display: none;
+    }
+    
+    @media screen and (max-width: 990px) {
+        .topnav a {
+            display: none;
+            z-index: 1020;
+            background-color: #151111;
         }
-        a:hover{
-            color: #c49b63;
+        .topnav a.icon {
+        float: right;
+        display: block;
         }
-        i:hover{
-            color: #c49b63;
+    }
+    
+    @media screen and (max-width: 990px) {
+        position: fixed !important;
+        z-index: 1020;
+        background-color: #151111;
+        width: -webkit-fill-available !important;
+        border-bottom: none;
+        .topnav.responsive {
+            position: relative;
+            z-index: 1020;
+            background-color: #151111;
+        }
+        .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        }
+        .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
         }
     }
 }
-
 .down{
     position: fixed !important;
     z-index: 1020;

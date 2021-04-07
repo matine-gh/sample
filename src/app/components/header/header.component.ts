@@ -24,9 +24,6 @@ export class HeaderComponent implements OnInit {
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
-    // window.onscroll = function() {scroll()};
-    // let f = document.getElementById("header");
-    // console.log(f)
   }
 
   @HostListener('window:scroll', ['$event'])
@@ -39,6 +36,35 @@ export class HeaderComponent implements OnInit {
       s.classList.remove('down');
     }
   }
+
+  myFunction() {
+    debugger;
+    var x = document.getElementById("myTopnav");
+    if (x != null) {
+      var classList = x.classList;
+      var classListArray: string[] = []
+      classList.forEach(element => {
+        debugger
+        classListArray.push(element)
+      });
+      var index = x.classList[0];
+      if (index === "topnav") {
+        // classListArray.push("responsive");
+        // x.className += " responsive";
+        // x.className.replace("col-md-8","");
+        x.className = "topnav responsive";
+        // classListArray.splice(1,2);
+        // classListArray.forEach(element => {
+        //   if (x != null) {
+        //     x.className += element;
+        //   }
+        // });
+      } else {
+        x.className = "topnav";
+      }
+    }
+  }
+    
 
 
 }

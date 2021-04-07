@@ -41,21 +41,22 @@ body{
         text-align-last: center;
         margin: auto;
       }
-      span{
+      .welcome{
         font-family: 'Open Sans', sans-serif;
         // font-family: "Great Vibes", cursive;
-        font-size: 1rem;
+        // font-size: 1rem;
         color: #c49b63;
       }
       h1{
-        font-size: xx-large;
+        // font-size: xx-large;
         color: white;
         padding: 10px;
         line-height: normal;
         width: inherit;
+        font-size: xxx-large;
       }
-      p{
-        font-size: 14px;
+      h2{
+        // font-size: 14px;
         line-height: 1.5;
         width: 85%;
         font-weight: 300;
@@ -70,10 +71,10 @@ body{
           background: #c49b63;
           border: 1px solid #c49b63;
           color: #000;
-          margin: 5px;
+          margin: 0.188rem;
           width: auto;
-          padding: 0.5rem 1.2rem;
-          font-size: 9px;
+          padding: 1rem 1.5rem;
+          // font-size: 9px;
         }
         button:hover,
         button:focus {
