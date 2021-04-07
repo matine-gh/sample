@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InformationComponent } from './components/information/information.component';
 import { BookATableComponent } from './components/book-a-table/book-a-table.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { Section2Component } from './components/section2/section2.component';
 
 // import {MatDatepickerModule} from '@angular/material/datepicker';
 
@@ -23,6 +24,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     FirstPageComponent,
     InformationComponent,
     BookATableComponent,
+    Section2Component,
   ],
   imports: [ 
     BrowserModule,
