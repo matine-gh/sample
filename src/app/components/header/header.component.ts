@@ -10,12 +10,11 @@ import {MatDividerHarness} from '@angular/material/divider/testing';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  
   scroll(){
     // debugger;
     if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
       // debugger;
-      // document.getElementById("header").className = "down";
       (document.getElementById('header') as HTMLFormElement).className = "down";
     }
   }
@@ -41,24 +40,10 @@ export class HeaderComponent implements OnInit {
     debugger;
     var x = document.getElementById("myTopnav");
     if (x != null) {
-      var classList = x.classList;
-      var classListArray: string[] = []
-      classList.forEach(element => {
-        debugger
-        classListArray.push(element)
-      });
       var index = x.classList[0];
       if (index === "topnav") {
-        // classListArray.push("responsive");
-        // x.className += " responsive";
-        // x.className.replace("col-md-8","");
-        x.className = "topnav responsive";
-        // classListArray.splice(1,2);
-        // classListArray.forEach(element => {
-        //   if (x != null) {
-        //     x.className += element;
-        //   }
-        // });
+        x.className = "responsive topnav";
+
       } else {
         x.className = "topnav";
       }
