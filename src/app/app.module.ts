@@ -12,6 +12,7 @@ import { InformationComponent } from './components/information/information.compo
 import { BookATableComponent } from './components/book-a-table/book-a-table.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { Section2Component } from './components/section2/section2.component';
+import { OurMenuComponent } from './components/our-menu/our-menu.component';
 
 // import {MatDatepickerModule} from '@angular/material/datepicker';
 
@@ -25,6 +26,7 @@ import { Section2Component } from './components/section2/section2.component';
     InformationComponent,
     BookATableComponent,
     Section2Component,
+    OurMenuComponent,
   ],
   imports: [ 
     BrowserModule,

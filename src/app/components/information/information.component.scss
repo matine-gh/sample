@@ -1,11 +1,10 @@
 body{
     display: inline-block;
     width: 65%;
-    // font-size: 0.6rem;
+    position: relative;
     background-color: black;
     height: fit-content;
     padding: 2% 5% 2% 12%;
-    // width: 65%;
     .row{
         .title{
             .row{
@@ -26,5 +25,12 @@ body{
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 585px){
+    body{
+        // position: inherit;
+        width: auto;
     }
 }

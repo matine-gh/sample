@@ -84,3 +84,9 @@ body{
         }
     // }
 }
+@media screen and (max-width: 585px){
+    body{
+        position: inherit;
+        width: auto;
+    }
+}

@@ -2,18 +2,22 @@ body{
     color: #1d150b;
     background: #c49b63;
     height: auto;
+    position: relative;
     .container{
         text-align: -webkit-center;
-        padding: 10.563rem 0rem;
-        div{
-            i{
-                bordeR: 1px solid #674c27;
-                font-size: 5rem;
-                padding: 30px;
-                margin: 0px 125px 48px 125px;
-            }
-            p{
-                padding: 0rem 3rem;
+        padding: 6.563rem 0rem 0rem;
+        .row{
+            div{
+                margin-bottom: 6.563rem;
+                i{
+                    bordeR: 1px solid #674c27;
+                    font-size: 3rem;
+                    padding: 30px;
+                    margin: 0px 125px 48px 125px;
+                }
+                p{
+                    padding: 0rem 3rem;
+                }
             }
         }
     }
