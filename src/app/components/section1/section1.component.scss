@@ -1,11 +1,14 @@
 body{
+    
     position: inherit;
     .row{
-        img{
+        .img{
+            background-image: url(../../../assets/images/section1.jpg);
             width: 50%;
-            height: 80%;
+            // height: 80%;
             background-size: cover;
             position: relative;
+            background-position: center;
         }
         .text{
             font-family: "Poppins", Arial, sans-serif;
