@@ -14,6 +14,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { Section2Component } from './components/section2/section2.component';
 import { OurMenuComponent } from './components/our-menu/our-menu.component';
 import { NumbersComponent } from './components/numbers/numbers.component';
+import { BESTComponent } from './components/best/best.component';
 
 // import {MatDatepickerModule} from '@angular/material/datepicker';
 
@@ -29,6 +30,7 @@ import { NumbersComponent } from './components/numbers/numbers.component';
     Section2Component,
     OurMenuComponent,
     NumbersComponent,
+    BESTComponent,
   ],
   imports: [ 
     BrowserModule,
