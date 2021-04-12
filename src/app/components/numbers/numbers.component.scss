@@ -1,0 +1,41 @@
+section{
+    height: 100vh; 
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(../../../assets/images/bg_2.jpg) !important;
+    background-position: 61% 5.818rem;
+    background-repeat: no-repeat;
+    height: 23rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    filter: brightness(0.8);
+    .container{
+        color: #c49b63;
+        margin: 6rem 0;
+        position: absolute;
+        .item{
+            text-align-last: center;
+            i{
+                bordeR: 1px solid #c49b63;
+                padding: 1.5rem;
+                font-size: xx-large;
+            }
+            i:hover{
+                transform: rotate(135deg);
+                background-color: #c49b63;
+                color: #000;
+                -webkit-transition: all 0.3s ease;
+            }
+            h1{
+                margin-top: 1.3rem;
+                font-size: xx-large;
+            }
+            p{
+                font-size: medium;
+                color: white;
+            }
+        }
+     }
+}
+     

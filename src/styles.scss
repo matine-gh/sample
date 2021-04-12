@@ -36,9 +36,9 @@ $sample-theme: mat-light-theme((
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-// @import url('../src/assets/fonts/Great_Vibes,Open_Sans/Great_Vibes/GreatVibes-Regular.ttf');
-@font-face {
-  font-family: GreatVibes;
-  src: url('../src/assets/fonts/Great_Vibes,Open_Sans/Great_Vibes/GreatVibes-Regular.ttf');
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url(assets/images/bakground1.jpg); 
 }
+// @import url('../src/assets/fonts/Great_Vibes,Open_Sans/Great_Vibes/GreatVibes-Regular.ttf');
